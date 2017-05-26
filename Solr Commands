@@ -1,0 +1,9 @@
+Solr core oluşturma
+sudo -u solr ./bin/solr create -c deneme
+Solr indexleme
+json kopyala
+example/exampledocs
+JSON Index
+sudo java -Dtype=text/JSON -Durl=http://localhost:8983/solr/deneme/update -jar post.jar engineering0013.json 
+
+/opt/solr/example/exampledocs
